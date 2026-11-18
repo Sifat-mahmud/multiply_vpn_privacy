@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy Policy for the Multiply VPN Android app.">
+<title>Privacy Policy – Multiply VPN</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1f23; --muted: #5b6570; --line: #dfe3e8;
+    --accent: #1b7f4b; --card: #f5f7f9; --mark: #fff3b0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14181c; --fg: #e8ecef; --muted: #9aa5b1; --line: #2a3138;
+            --accent: #5cc98d; --card: #1c2228; --mark: #5a4b00; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.35rem; margin: 40px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 18px 12px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { background: var(--card); }
+  mark { background: var(--mark); color: inherit; padding: 0 4px; border-radius: 4px; }
+  nav ol { columns: 2; padding-left: 22px; }
+  @media (max-width: 560px) { nav ol { columns: 1; } table { font-size: .88rem; } }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="muted">Multiply VPN (Android app, package <code>com.multiply_vpn</code>)<br>
+Effective date: November 18, 2026</p>
+
+<p>This Privacy Policy explains what information the Multiply VPN app ("the app", "we", "us") collects,
+how we use it, who we share it with, and the choices you have. It applies only to the Multiply VPN app.</p>
+
+<div class="card">
+  <h3>In short</h3>
+  <ul>
+    <li>The app creates a VPN connection on your device so your internet traffic goes through a VPN server.</li>
+    <li>The app does <strong>not</strong> record or upload the websites you visit or the content of your traffic.</li>
+    <li>We do <strong>not</strong> collect or keep server logs.</li>
+    <li>If you create an account, we store your <strong>e-mail address</strong>, a daily summary of <strong>how long you were connected and how much data you used</strong>, and which <strong>app permissions</strong> you granted.</li>
+    <li>Crash reports are sent to a crash-reporting service so we can fix problems.</li>
+    <li>We do not show ads, we do not sell your data, and we do not share it for advertising.</li>
+  </ul>
+</div>
+
+<nav>
+  <h3>Contents</h3>
+  <ol>
+    <li><a href="#who">Who we are</a></li>
+    <li><a href="#vpn">How the VPN service works</a></li>
+    <li><a href="#collect">Information we collect</a></li>
+    <li><a href="#use">How we use information</a></li>
+    <li><a href="#share">Who we share information with</a></li>
+    <li><a href="#permissions">Permissions the app asks for</a></li>
+    <li><a href="#retention">How long we keep information</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#rights">Your choices and rights</a></li>
+    <li><a href="#delete">Delete your account and data</a></li>
+    <li><a href="#children">Children</a></li>
+    <li><a href="#transfers">International transfers</a></li>
+    <li><a href="#changes">Changes to this policy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</nav>
+
+<h2 id="who">1. Who we are</h2>
+<p>The Multiply VPN app is provided by SilkRoad Apps ("we", "us").
+You can contact us at <a href="mailto:multiplyvpn@gmail.com">multiplyvpn@gmail.com</a>.</p>
+
+<h2 id="vpn">2. How the VPN service works</h2>
+<p>The app uses Android's <strong>VpnService</strong> to create a device-wide VPN tunnel. When you tap
+Connect, Android asks for your permission, and the app then sends your device's internet traffic through
+the VPN server selected for the country you chose. We use this only to provide the VPN you asked for.
+The app does not use the VPN connection to read, collect, modify or redirect your traffic for advertising or any
+other purpose, and it does not change advertising shown in other apps.</p>
+<p>While the VPN runs, the app shows a persistent notification with the connection status and your current
+download and upload speed. Android requires this notification for a service that keeps running in the background.</p>
+
+<h2 id="collect">3. Information we collect</h2>
+
+<h3>3.1 Account information</h3>
+<p>You can use the app for a limited amount of data without an account. After that you can sign in with
+Google or with an e-mail address and password. Sign-in is provided by Google Firebase Authentication.</p>
+<ul>
+  <li><strong>Google sign-in:</strong> we receive your e-mail address, a unique account ID, and the name and profile photo Google provides for your account.</li>
+  <li><strong>E-mail sign-in:</strong> we receive your e-mail address and a unique account ID. Your password is handled by Firebase Authentication; we cannot see it. We send a verification e-mail through Firebase.</li>
+</ul>
+
+<h3>3.2 Usage and data-allowance information (stored with your account)</h3>
+<p>The app measures, on your device, how much incoming data passes through the VPN and how long you stay
+connected. When you are signed in, it saves a summary to your account record:</p>
+<ul>
+  <li>for each day: the date, minutes connected, and megabytes of data used;</li>
+  <li>your data allowance status: the start and reset time of the current period, the amount used, and the limit;</li>
+  <li>the amount of data you used before you signed in;</li>
+  <li>your plan label (for example "free").</li>
+</ul>
+<p>These figures are totals. They do not say which websites or apps you used.</p>
+
+<h3>3.3 App permission status</h3>
+<p>When you are signed in, the app saves whether you granted or denied certain Android permissions or settings
+(VPN permission, notifications, camera, and battery settings for the app), together with the time of the last change.
+We use this to understand why the app may not work as expected on a device.</p>
+
+<h3>3.4 Diagnostic information</h3>
+<p>The app uses a crash-reporting service (Sentry). If the app crashes or an error occurs, it may send a report with
+technical details such as the app version, device model, Android version, the error and what the app was doing
+when it happened. A sample of performance measurements may also be sent. As with any internet request,
+the service receives the IP address from which the report is sent.</p>
+
+<h3>3.5 Information kept only on your device</h3>
+<p>The following stay on your device and are not uploaded: your settings, your selected country, the list of
+servers the app has downloaded, your sign-in session, and the counters the app uses to measure your data use
+(which are saved to your account as described in 3.2).</p>
+
+<h3>3.6 VPN servers and server logs</h3>
+<p>The VPN servers you connect to necessarily carry your network traffic while you are connected.
+<strong>We do not collect or keep server logs.</strong> We do not record or store the websites or addresses you visit,
+your DNS queries, or the content of your traffic, and we do not keep connection logs of when you connect or which
+IP address you connect from. The usage summary described in section 3.2 (minutes connected and data used) is
+measured by the app on your device and saved to your account; it is not a log kept on our servers, and it does not show
+what you did online.</p>
+
+<h3>3.7 Information the app requests from public internet services</h3>
+<p>To work, the app contacts public internet services: it downloads the list of VPN servers; it checks that the
+connection works by requesting small test pages from well-known providers (for example Google or Cloudflare);
+it may look up the IP address and country of your connection; it may use a public DNS provider (for example
+Cloudflare) to resolve website names; and it may check for app update information on a public software
+hosting service. These services can see the IP address the request comes from, as with any internet request.</p>
+
+<h3>3.8 What we do not collect</h3>
+<p>The app does not collect your contacts, messages, photos, files, precise location, advertising ID, or
+payment information. QR codes you scan with the camera are read on your device only.</p>
+
+<h2 id="use">4. How we use information</h2>
+<ul>
+  <li>to provide the VPN service and to show your connection status and remaining data;</li>
+  <li>to create and secure your account and to let you sign in on another device;</li>
+  <li>to apply and restore your data allowance, so that signing out or clearing the app's data does not erase the data you already used;</li>
+  <li>to find and fix crashes and other problems, and to improve the app;</li>
+  <li>to prevent abuse of the service, and to comply with the law.</li>
+</ul>
+<p>We do not use your information for advertising and we do not sell it.</p>
+
+<h2 id="share">5. Who we share information with</h2>
+<table>
+  <thead><tr><th>Recipient</th><th>What</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Google (Firebase Authentication, Firebase Realtime Database, Google Sign-In)</td>
+        <td>Account information, usage and allowance information, permission status</td>
+        <td>Sign-in, and hosting of your account record. Google acts as our service provider.</td></tr>
+    <tr><td>Sentry (crash reporting)</td>
+        <td>Diagnostic information (3.4)</td>
+        <td>Finding and fixing crashes. Sentry acts as our service provider.</td></tr>
+    <tr><td>Public internet services (test pages, DNS, IP lookup, update information)</td>
+        <td>Your connection's IP address, as part of the request</td>
+        <td>Making the connection work (3.7)</td></tr>
+    <tr><td>Authorities</td><td>Only what the law requires</td>
+        <td>When we receive a valid legal request, or to protect rights, safety and security.</td></tr>
+  </tbody>
+</table>
+<p>We do not sell personal information, and we do not share it with advertisers or data brokers.</p>
+
+<h2 id="permissions">6. Permissions the app asks for</h2>
+<ul>
+  <li><strong>VPN permission (Android system dialog):</strong> needed to create the VPN connection.</li>
+  <li><strong>Internet and network state:</strong> to connect and to detect network changes.</li>
+  <li><strong>Notifications:</strong> to show the VPN status and speed notification.</li>
+  <li><strong>Foreground service:</strong> to keep the VPN connected while the app is in the background.</li>
+  <li><strong>Camera:</strong> only if you choose to scan a QR code; the image is processed on your device.</li>
+  <li><strong>Start at boot:</strong> to reconnect after the device restarts, if you enable that option.</li>
+  <li><strong>Battery settings:</strong> so you can allow the app to keep running in the background.</li>
+</ul>
+<p>You can withdraw any permission in your phone's settings. The VPN will not work without the VPN permission.</p>
+
+<h2 id="retention">7. How long we keep information</h2>
+<p>We keep your account and usage information for as long as your account exists, and delete it when you ask us to
+(section 10). Crash reports are kept by the crash-reporting service for a limited period. Data stored only on your
+device is removed when you clear the app's data or uninstall the app.</p>
+
+<h2 id="security">8. Security</h2>
+<p>Connections between the app and our account services use encryption (HTTPS). Account records are protected by access
+rules so that each signed-in user can only read and write their own record. No system is completely secure, so we
+cannot guarantee absolute security.</p>
+
+<h2 id="rights">9. Your choices and rights</h2>
+<ul>
+  <li>You can use the app for the free allowance without an account.</li>
+  <li>You can sign out at any time in Settings.</li>
+  <li>You can ask us for a copy of the information we hold about you, ask us to correct it, or ask us to delete it.</li>
+  <li>Depending on where you live (for example in the European Economic Area, the United Kingdom or California), you may have additional rights, such as objecting to or restricting processing, or complaining to your data protection authority.</li>
+</ul>
+<p>To use these rights, contact us at <a href="mailto:multiplyvpn@gmail.com">multiplyvpn@gmail.com</a> from the e-mail address of your account.</p>
+
+<h2 id="delete">10. Delete your account and data</h2>
+<p>To delete your account and the data stored with it, send an e-mail to <a href="mailto:multiplyvpn@gmail.com">multiplyvpn@gmail.com</a> from the
+address you signed up with, with the subject "Delete my Multiply VPN account". We will delete your sign-in account and
+your account record (e-mail address, usage and allowance information, permission status) within 30 days and confirm by e-mail.
+Crash reports that do not contain your account details may be kept for a limited period. Data stored only on your
+device is removed when you clear the app's data or uninstall the app.</p>
+
+<h2 id="children">11. Children</h2>
+<p>The app is not directed to children under 13 (or under 16 in the European Economic Area), and we do not knowingly
+collect their personal information. If you believe a child has given us personal information, contact us and we will delete it.</p>
+
+<h2 id="transfers">12. International transfers</h2>
+<p>Our service providers, including Google and Sentry, may process information in the United States and other countries
+where they operate, which may have different data protection laws from your country. We rely on the safeguards
+these providers offer for such transfers.</p>
+
+<h2 id="changes">13. Changes to this policy</h2>
+<p>We may update this policy. When we do, we will change the effective date above and, for material changes, tell you in
+the app or by e-mail. Using the app after a change means you accept the updated policy.</p>
+
+<h2 id="contact">14. Contact</h2>
+<p>SilkRoad Apps<br>
+E-mail: <a href="mailto:multiplyvpn@gmail.com">multiplyvpn@gmail.com</a></p>
+
+<p class="muted" style="margin-top:40px">Multiply VPN by SilkRoad Apps – Privacy Policy – effective November 18, 2026</p>
+
+</main>
+</body>
+</html>
